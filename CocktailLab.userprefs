@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{E033292C-1101-44F4-867D-083EF8DB215F}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CocktailLab AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.DeviceDefault" PreferredExecutionTarget="Android.cocktailDevice" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Ahmet Anıl Gürbüz\Desktop\CocktailLab\CocktailLab\Holders\CocktailViewHolder.cs" line="31" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CocktailLab\Activities\CocktailContentActivity.cs">
+    <Files>
+      <File FileName="CocktailLab\Activities\CocktailContentActivity.cs" Line="17" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="CocktailLab.CocktailLab" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="24" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="@string/ApplicationName" android:icon="@drawable/icon" android:theme="@style/MyTheme" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="CocktailLab" android:name="md503d368792e76997a708abd586ec33284.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Shake a Cocktail" android:parentActivityName="md503d368792e76997a708abd586ec33284.MainActivity" android:name="md503d368792e76997a708abd586ec33284.ShakeCocktailActivity">
+      <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity" />
+    </activity>
+    <activity android:label="Materials" android:name="md5a3b3815015c753f97eb6610db9f5b664.CocktailsContentActivity">
+      <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity" />
+    </activity>
+    <activity android:label="Cocktails" android:name="md5a3b3815015c753f97eb6610db9f5b664.CocktailsViewActivity">
+      <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity" />
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="CocktailLab.CocktailLab.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.CocktailLab.CocktailLab" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>
